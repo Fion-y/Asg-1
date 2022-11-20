@@ -1,4 +1,7 @@
 table {
-    background-color: lightpink;
-    opacity: 0.6;
+    background-color: pink;
+    opacity: 1;
 }
+th, td {
+    padding: 15px;
+  }
