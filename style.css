@@ -9,3 +9,7 @@ th, td {
     background-color: plum;
     
 }
+
+img {
+    width:250px;border-radius:50%;
+}
