@@ -1,3 +1,9 @@
+body {
+    background-image: url('snsd tgt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 table {
     background-color: pink;
     opacity: 1;
@@ -10,9 +16,21 @@ th, td {
     
 }
 
+.maknae {
+    width: 250px; height: auto;
+}
+
 img {
     width:250px;border-radius:50%;
     
+}
+
+h1{
+    color: crimson;
+}
+
+h3{
+    color:darkmagenta;
 }
 .btns {
     position: absolute;
@@ -29,3 +47,5 @@ img {
     cursor: pointer;
     border-radius: 50%;
   }
+
+
