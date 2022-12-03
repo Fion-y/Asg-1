@@ -16,11 +16,12 @@ th, td {
     
 }
 
-.maknae {
-    width: 250px; height: auto;
+.pic{
+    width: 500px; 
+    border-radius: 8px;
 }
 
-img {
+.img {
     width:250px;border-radius:50%;
     
 }
@@ -31,7 +32,58 @@ h1{
 
 h3{
     color:darkmagenta;
+    background-color: turquoise;
 }
+
+p{
+    color: darkslateblue;
+    font-family:fantasy;
+    text-align: left;
+    font-size: larger;
+}
+
+/* information */
+
+#album {
+    position: relative;
+    width: 50%;
+  }
+  
+  .picture {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .container {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  #album:hover .picture {
+    opacity: 0.3;
+  }
+  
+  #album:hover .container {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: lightpink;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+/*buttons*/
 .btns {
     position: absolute;
     width:200px;
@@ -48,4 +100,8 @@ h3{
     border-radius: 50%;
   }
 
-
+/*footer*/
+footer{
+    background-color: cyan;
+    font-size: large;
+}
