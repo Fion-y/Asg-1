@@ -90,6 +90,10 @@ h1{
     color: crimson;
 }
 
+h2{
+    color: darkred;
+}
+
 h3{
     color:darkmagenta;
     background-color: turquoise;
@@ -144,7 +148,7 @@ p{
   .text {
     background-color: lightpink;
     color: white;
-    font-size: 16px;
+    font-size: 25px;
     padding: 16px 32px;
   }
 
