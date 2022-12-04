@@ -1,12 +1,13 @@
-body {
-    background-image: url('snsd tgt.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+.content {
+  background-image: url('snsd tgt.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 table {
     background-color: pink;
     opacity: 1;
+    
 }
 th, td {
     padding: 15px;
@@ -92,6 +93,11 @@ h1{
 h3{
     color:darkmagenta;
     background-color: turquoise;
+}
+
+h4{
+  color: firebrick;
+  font-size: larger;
 }
 
 p{
